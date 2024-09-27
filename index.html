@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+ <button id="clickbtn" onclick="clickMe()" style="border-radius: 100px; background-color: grey; height: 100px; width: 100px; color: white; font-size: large;">Click<br> Me</button>
+ <button id="redbtn" onclick="iamRed()" style="border-radius: 100px; background-color: red; height: 100px; width: 100px; color: white;font-size: large;">iam<br>red</button>
+ 
+<script>
+    function clickMe(){
+        document.getElementById("redbtn").style.backgroundColor="blue";
+        document.getElementById("redbtn").innerHTML="iam <br> blue"
+    
+    }
+</script>
+
+
+</body>
+</html>
